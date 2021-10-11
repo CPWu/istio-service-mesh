@@ -4,7 +4,7 @@ Learning Module: Istio is an open source service mesh platform that helps micro 
 
 ## Agenda
 
-- [Service Mesh and Istio Overview](service-mesh-istio-overview.md)
+- [Service Mesh and Istio Overview](service-mesh-istio-overview)
 - Install Istio
 - Observability: Telementry and Logs
 - Traffic Management
