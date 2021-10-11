@@ -97,31 +97,31 @@ The pilot component inside Istiod abstracts the platform-specific service discov
 - Ambassadors
 - Adapters
 - Interfaces
-<strong>- Sidecars</strong>
+- <strong>Sidecars</strong>
 
-3. How can service mesh help with communication logic between services?
+1. How can service mesh help with communication logic between services?
 - It reduces latency
 - It allows you to scale the services faster
-<strong>- It moves the logic into a separate infrastructure layer</strong>
+- <strong>It moves the logic into a separate infrastructure layer</strong>
 - It makes the deployment faster
 
-4. From the list below pick <strong>2</strong> of the benefits of microservices architecture.
-<strong>- Scalability</strong>
-<strong>- Smaller Teams</strong>
+1. From the list below pick <strong>2</strong> of the benefits of microservices architecture.
+- <strong>Scalability</strong>
+- <strong>Smaller Teams</strong>
 - Simplified communication between services
 - Ease of debugging
 - Easier testing
 
 5. Service mesh proxies can only inspect inbound requests. True or False?
 - True
-<strong>- False</strong>
+- <strong>False</strong>
 
-6. The data plane in Istio consists of users' services. True or False?
+1. The data plane in Istio consists of users' services. True or False?
 - True
-<strong>- False</strong>
+- <strong>False</strong>
 
-7. Which component in Istio converts YAML rules into Envoy configuration?
+1. Which component in Istio converts YAML rules into Envoy configuration?
 - Envoy
-<strong>- Istiod</strong>
+- <strong>Istiod</strong>
 - Sidecar
 - Citadel
