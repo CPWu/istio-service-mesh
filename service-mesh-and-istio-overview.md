@@ -83,4 +83,45 @@ The pilot component inside Istiod abstracts the platform-specific service discov
  Using the built-in identity and credential management, we can enable strong service-to-service and end-user authentication. With authorization features, we can control who can access your services.
 
  The portion of the control plane, formerly known as Citadel, acts as a certificate authority and generates certificates that allow secure mutual TLS communication between the proxies in the data plane.
- 
+
+
+ ## Mini-Quiz
+
+1. At a high level, what are the two pieces that make up the Istio service mesh?
+<strong>- Data plane and Control plane</strong>
+- Istio Pilot and Envoy
+- Data plane and Envoy proxies
+- Envoy proxy and configuration
+
+2. What are the service mesh proxies also called?
+- Ambassadors
+- Adapters
+- Interfaces
+<strong>- Sidecars</strong>
+
+3. How can service mesh help with communication logic between services?
+- It reduces latency
+- It allows you to scale the services faster
+<strong>- It moves the logic into a separate infrastructure layer</strong>
+- It makes the deployment faster
+
+4. From the list below pick <strong>2</strong> of the benefits of microservices architecture.
+<strong>- Scalability</strong>
+<strong>- Smaller Teams</strong>
+- Simplified communication between services
+- Ease of debugging
+- Easier testing
+
+5. Service mesh proxies can only inspect inbound requests. True or False?
+- True
+<strong>- False</strong>
+
+6. The data plane in Istio consists of users' services. True or False?
+- True
+<strong>- False</strong>
+
+7. Which component in Istio converts YAML rules into Envoy configuration?
+- Envoy
+<strong>- Istiod</strong>
+- Sidecar
+- Citadel
