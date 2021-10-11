@@ -88,7 +88,7 @@ The pilot component inside Istiod abstracts the platform-specific service discov
  ## Mini-Quiz
 
 1. At a high level, what are the two pieces that make up the Istio service mesh?
-<strong>- Data plane and Control plane</strong>
+- <strong>Data plane and Control plane</strong>
 - Istio Pilot and Envoy
 - Data plane and Envoy proxies
 - Envoy proxy and configuration
