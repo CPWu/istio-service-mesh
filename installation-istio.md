@@ -22,6 +22,32 @@ The advantage of Istio operator installation over the `istioctl` is that we don'
 
 There are additional considerations to keep in mind when deciding on a production deployment model of Istio. We can configure Istio to run in different deployment models - potentially spanning multiple clusters and networks and using multiple control planes. We will learn about the other deployment models, multi-cluster installation, and running workloads on virtual machines in the <strong>Advanced Features</strong> module.
 
-## Platform Installation Guides
+### Platform Installation Guides
 
 We can install Istio on different Kubernetes platforms. For the most up-to-date installation instructions for specific cloud vendors, refer to [Platform Setup](https://istio.io/latest/docs/setup/platform-setup/) documentation.
+
+## GetMesh
+
+Istiio is one of the most popular and fast-growing open-source projects. Its release schedule can be very agressive for enterprise lifecycle and change management practices. GetMesh's versions of Istio are actively supported for security patches and other bug fixes and have much longer support life than provided by upstream Istio. [GetMesh(https://istio.tetratelabs.io) addresses this concern by testing all Istio versions against different Kubernetes distributions for functional integrity.
+
+Some service mesh customers need to support elevated security requirements. GetMesh addresses compliance by offering two flavors of the Istio distribution.
+
+- tetrate distro tracks the upstream Istio and may have additional patches applied
+- tetratefps distro that is a FIPS-compliant version of the tetrate flavor
+
+### How to get started?
+
+The first step is to download GetMesh CLI.  You can install GetMesh on macOS and Linux platforms. We can use the following command to download the latest version of GetMesh and certified Istio:
+
+`curl -sL https://istio.tetratelabs.io/getmesh/install.sh | bash`
+
+We can run the `version` command to ensure GetMesh got successfully installed. For example:
+
+```bash
+$ getmesh version
+getmesh version: 1.1.1
+active istioctl: 1.8.3-tetrate-v0
+no running Istio pods in "istio-system"
+```
+
+The version command outputs the version of GetMesh, the version of active Istio CLI, and versions of Istio installed on the Kubernetes cluster.
